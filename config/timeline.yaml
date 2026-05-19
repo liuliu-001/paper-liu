@@ -266,7 +266,7 @@ presets:
 
       weekend_free:
         name: "周末自由"
-        start: "08:00"
+        start: "09:00"
         end: "23:00"
         ai_mode: "current"         # AI 分析当前榜单
         push: true                 # 有新增就推送
@@ -472,7 +472,7 @@ custom:
 
     weekday_morning:
       name: "工作日早间"
-      start: "08:00"
+      start: "09:00"
       end: "10:00"                 # 跨度 2h，留足触发裕量
       # frequency_file: "xxx.txt"               # 关键词文件（可选，位于 config/custom/keyword/）
       # interests_file: "xxx.txt"                # AI 兴趣文件（可选，位于 config/custom/ai/）
