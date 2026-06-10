@@ -58,7 +58,10 @@ jobs:
         with:
           fetch-depth: 1
           clean: true
-
+          
+      - name: Set timezone to Asia/Shanghai
+        run: sudo timedatectl set-timezone Asia/Shanghai
+        
       - name: Check Expiration
         env:
           GH_TOKEN: ${{ github.token }}
